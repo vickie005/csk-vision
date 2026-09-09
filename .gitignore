@@ -32,5 +32,3 @@ Thumbs.db
 *.h5
 *.keras
 
-# Dataset
-dataset/
