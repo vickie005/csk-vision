@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSK Vision | AI/ML Track</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="brand">
+           <img src="csk-logo.png" alt="CSK Logo" class="csk-logo">
+
+            <div>
+                <h2>CSK Vision</h2>
+                <span>AI/ML Track</span>
+            </div>
+        </div>
+
+        <div class="status">
+            <span class="status-dot"></span>
+            Model Ready
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="hero">
+            <p class="eyebrow">COMPUTER VISION EXPERIMENT</p>
+
+            <h1>
+                Meet <span>CSK Vision.</span>
+            </h1>
+
+            <p class="hero-text">
+                A small computer vision model trained to recognize
+                three CSK gestures in real time.
+            </p>
+        </section>
+
+
+        <!-- demo area -->
+        <section class="demo">
+
+            <div class="camera-card">
+
+                <div class="card-header">
+                    <div>
+                        <p class="card-label">LIVE CAMERA</p>
+                        <h3>Show your gesture</h3>
+                    </div>
+
+                    <span class="live-badge">● LIVE</span>
+                </div>
+
+                <div class="camera-screen">
+
+                    <div class="camera-placeholder">
+                        <div class="camera-icon">⌁</div>
+
+                        <h3>Camera is ready</h3>
+
+                        <p>
+                            Start the camera and show one of
+                            the gestures below.
+                        </p>
+                    </div>
+
+                </div>
+
+                <button class="camera-button">
+                    Start Camera
+                </button>
+
+            </div>
+
+
+            <!-- ..... prediction -->
+            <div class="prediction-card">
+
+                <p class="card-label">MODEL OUTPUT</p>
+
+                <div class="prediction-content">
+
+                    <div class="prediction-icon">
+                        ✋
+                    </div>
+
+                    <p class="prediction-caption">
+                        I THINK THIS IS
+                    </p>
+
+                    <h2>Wave</h2>
+
+                    <div class="confidence">
+
+                        <div class="confidence-header">
+                            <span>Confidence</span>
+                            <strong>87%</strong>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-value"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <p class="prediction-note">
+                    Prediction updates as the model analyzes
+                    the camera feed.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- recognized gestures -->
+        <section class="gestures">
+
+            <div class="section-heading">
+                <p class="card-label">TRAINED CLASSES</p>
+                <h2>What can CSK Vision recognize?</h2>
+            </div>
+
+
+            <div class="gesture-grid">
+
+                <div class="gesture">
+                    <span>🖐️</span>
+                    <div>
+                        <strong>Wave</strong>
+                        <p>Open palm gesture</p>
+                    </div>
+                </div>
+
+                <div class="gesture">
+                    <span>👍</span>
+                    <div>
+                        <strong>CSK Approved</strong>
+                        <p>Thumbs-up gesture</p>
+                    </div>
+                </div>
+
+                <div class="gesture">
+                    <span>✌️</span>
+                    <div>
+                        <strong>CSK Peace</strong>
+                        <p>Peace gesture</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Built by the <strong>CSK AI/ML Track</strong>
+        </p>
+
+        <span>Code • Connect • Grow</span>
+    </footer>
+
+</body>
+</html>
