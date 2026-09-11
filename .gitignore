@@ -28,7 +28,4 @@ Thumbs.db
 # Logs
 *.log
 
-# TensorFlow / Keras
-*.h5
-*.keras
 
